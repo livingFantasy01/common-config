@@ -4,7 +4,7 @@ spring:
   application:
     name: customer
   datasource:
-    password: {cipher}c120370c49cbe746786f12aa0b19e0e6b32ba94b36850ed1fc237764a4c4628a
+    password: {cipher}b1c58ba0c50c7dcbf6654338221f15fa65a000149bbea4a1d30c04ca61de9e73
     url: jdbc:postgresql://localhost:5432/customer
     username: amigoscode
   jpa:
