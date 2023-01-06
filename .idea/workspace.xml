@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2063573-5b9b-4361-824d-ef3b0299ebdc" name="Changes" comment="" />
+    <list default="true" id="d2063573-5b9b-4361-824d-ef3b0299ebdc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/customer/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/application-test.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
