@@ -1,8 +1,6 @@
 server:
   port: 8080
-spring:
-  application:
-    name: customer
+
   datasource:
     password: "{cipher}b1c58ba0c50c7dcbf6654338221f15fa65a000149bbea4a1d30c04ca61de9e73"
     url: jdbc:postgresql://localhost:5432/customer
@@ -20,5 +18,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+      registerWithEureka: true
+      fetchRegistry: true
+  instance:
+    preferIpAddress: true
       
 message: "i am from test"
