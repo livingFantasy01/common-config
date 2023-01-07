@@ -22,5 +22,13 @@ eureka:
       fetchRegistry: true
   instance:
     preferIpAddress: true
+    
+customer:
+  fetch:
+   url: http://customer/api/customer/{customerId}
+   
+stock:
+  fetch:
+   url: http://stock/api/stock/{stockName}
       
 message: "i am from dev"
