@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     password: "{cipher}165a542719a1b876710a7b794897984b79072ae3bd50c20a266d59d788e23a62"
-    url: jdbc:postgresql://localhost:5432/customer
+    url: jdbc:postgresql://localhost:5432/stock
     username: amigoscode
   jpa:
     hibernate:
