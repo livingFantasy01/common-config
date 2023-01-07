@@ -2,7 +2,7 @@ server:
   port: 8080
 
   datasource:
-    password: "{cipher}b1c58ba0c50c7dcbf6654338221f15fa65a000149bbea4a1d30c04ca61de9e73"
+    password: "{cipher}165a542719a1b876710a7b794897984b79072ae3bd50c20a266d59d788e23a62"
     url: jdbc:postgresql://localhost:5432/customer
     username: amigoscode
   jpa:
